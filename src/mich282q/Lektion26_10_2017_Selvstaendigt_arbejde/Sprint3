@@ -1,0 +1,18 @@
+1. Hvad er en abstract class? Eksempel i kode og i UML.
+- Man kan fx ikke bare skrive "fisk". Man er nødt til at definere fiske-klassen, til at have både torsk, rødspøtte osv.
+
+a. Hvad kan en abstract method bruges til? Eksempel i kode og i UML.
+- Man tvinger subclasserne til at have unikke værdi for metoderne, fx så skal man have et navn. Man kan ikke fortsætte
+før man har et navn.
+
+2. Hvad er et interface? Eksempel i kode og i UML.
+- Et interface er et class-like construct som kun indeholder konstanter og abstrakte metoder.
+
+a. Hvad kan et interface bruges til? Eksempel i kode og i UML.
+- Den tvinger brugeren til at bruge abstrakte metoder og konstanter.
+
+3. Hvad  bruges Comparable interface til i Java? Eksempel i kode og i UML.
+- The Comparable interface definerer compareTo metoden, som sammenligner objekter.
+
+4.Hvad  bruges Clonable interface til i Java? Eksempel i kode og i UML.
+- The Cloneable interface specificerer at et objekt kan blive klonet/kopieret.

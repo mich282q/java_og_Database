@@ -1,0 +1,23 @@
+
+1. Vis et eksempel på at du overrider Object klassens toString() metode i din kode.
+- Fra sprint1 mappen, kan man se i SubclassAudi at vi overrider en toString().
+
+2. Hvad er polymorfi i Java? Vis eksempel i din kode.
+- Polymorfi er når man tager variabler af supertypen, som refererer til subtype objecter. (Se Polymorphism class)
+
+3. Hvad er object casting i Java? Vis eksempel i din kode.
+- Vi har lavet en Casting class, hvor vi lavet et object fra SubclassAudi, hvor vi tager cotructoreren derfra. Herfra
+kan vi så display vores object vha. public static void displayObject(Object object).
+En objecktreference can blive typecast ind til en anden objectreference.
+
+a. Hvad gør instanceof? Vis eksempel i din kode.
+-Instanceof er et keyword som bruges til at teste om et object er en subtype af en bestemt type. (Se Casting class)
+
+b. Hvad gør Object klassens equals metode? Vis eksempel i din kode.
+- Equals metoden tester om 2 objecter er ens
+
+4. Hvad kan klassen ArrayList bruges til? Vis eksempel i din kode.
+- En ArrayList-object er flexible og  kan bruges til at lagre(store) en liste a objekter. (Se TestArrayList)
+
+5. Hvordan kan du forhindre, at en klasse kan udvides med subclasses? Vis i din kode.
+- Vha. final. En final datafield er altid konstant.

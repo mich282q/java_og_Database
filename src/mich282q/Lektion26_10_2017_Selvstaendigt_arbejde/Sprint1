@@ -1,0 +1,27 @@
+
+1. Hvad er en superclass i Java? Eksempel i kode og i UML.
+- Superclassen er den overordnede klasse, hvor subclasser kan hente metoder fra. (Se "SuperclassBil")
+
+2. Hvad er en subclass? Eksempel i kode og i UML.
+- subclassen er de underordnede klasser, hvor man kan bygge videre på forskellige små klasser, som kan trække
+oplysninger fra superclassen (Se "SubclassAudi")
+
+3. Hvordan kan vi kalde superklassens constructor? Eksempel i kode.
+- Ved at skrive superclassens navn inde i subclassen, altså fx "SuperclassBil(){} inde i "SubclassAudi", derved vækker
+vi metoderne som er i klassen SuperclassBil.
+ a. Vis et eksempel på constructor chaining i din kode.
+ - se SubclassAudi
+
+4. Hvordan kan vi kalde superklassens metoder? Eksempel i kode.
+- Når man har kaldt constructoren, så kan man kalde metoderne ved at skrive setColor fx.
+
+5. Hvad er forskellen mellem overriding methods og overloading methods i Java? Eksempel i kode.
+- Når man overrider, så bruger man en andens kode uden at ændre i den.
+- Når man overloader, så bruger man en andens kode, hvor man ændre i den fx int til double.
+
+6. Hvad er toString() metoden i Java? Eksempel i kode.
+- toString() metoden bruges når man skal override fra superclassen. Vi har lavet en toString() i SubclassAudi, som
+bliver kaldt i TestAudi.
+
+
+UML er lavet i SubclassAudi.uml
